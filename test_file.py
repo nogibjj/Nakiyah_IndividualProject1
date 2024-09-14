@@ -1,7 +1,5 @@
 import pandas as pd
-import numpy as np
 from io import StringIO
-import matplotlib.pyplot as plt
 from main_file import (
     cleanData,
     summaryStatistics,
