@@ -10,4 +10,4 @@ lint:
 test:
 	python3 -m pytest -vv --nbval -cov=mylib -cov=main_file test_*.py *.ipynb
 	
-	all: install format lint test
+all: install format lint test
