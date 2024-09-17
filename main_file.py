@@ -1,4 +1,4 @@
-from mylib.functions import (
+from mylib.lib import (
     readData,
     cleanData,
     summaryStatistics,
