@@ -1,11 +1,6 @@
 # Nakiyah_MiniProject1
 
-Make Install Badge
 [![Install](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/cicd.yml)
-
-Make Format Badge
-[![Format](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/cicd.yml)
-
 
 # Week 3
 
