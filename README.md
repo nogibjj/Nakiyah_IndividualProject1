@@ -1,5 +1,9 @@
 # Nakiyah_MiniProject1
 
+Make Install Badge
+[![CI](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/cicd.yml)
+
+Make Format Badge
 [![CI](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/cicd.yml)
 
 
