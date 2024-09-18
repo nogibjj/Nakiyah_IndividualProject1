@@ -1,12 +1,12 @@
 # Nakiyah_MiniProject1
 
-[![Install](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/cicd.yml)
+[![Install](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/install.yml)
 
-[![Format](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/cicd.yml)
+[![Format](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/format.yml)
 
-[![Lint](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/cicd.yml)
+[![Lint](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/lint.yml)
 
-[![Test](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/cicd.yml/badge.svg)](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/cicd.yml)
+[![Test](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/test.yml)
 
 # Week 3
 
@@ -15,8 +15,11 @@ The repository skeleton:
 ├── .devcontainer/
 │   ├── devcontainer.json
 │   ├── Dockerfile
-├── .github/workflows/
-│   ├── cicd.yml
+├── .github/workflows
+│   ├── install.yml
+│   ├── format.yml
+│   ├── lint.yml
+│   ├── test.yml
 ├── mylib/
 │   ├── lib.py
 ├── .gitignore
@@ -29,7 +32,16 @@ The repository skeleton:
 ├── test_file.py
 └── test_lib.py
 
-In this 
+## Overview
+This repository analyzes the FT Global Business School MBA Ranking 2024 dataset. The project uses Python for data processing, visualization, and automated testing, with additional support for containerized development and a CI/CD pipeline.
+
+## Functions inside the main.py
+readData(df): Reads a CSV file into a DataFrame.
+cleanData(df, Columns, Duplicate): Cleans the data by removing duplicates and selecting specified columns.
+summaryStatistics(df): Generates descriptive summary statistics, including median, for numeric columns in the DataFrame.
+stackPlot(df, xVal, StackVal): Creates a stacked bar plot based on two categorical variables.
+barPlot(df, xVal, yVal, Segregate): Produces a horizontal bar plot showing the average of one variable grouped by two others.
+
 
 ## Repository contents:
 1. .devcontainer directory (a) devcontainer.json (b) Dockerfile
@@ -40,9 +52,3 @@ In this
 6. main.py --> Reads a CSV file, generates descriptive summary statistics, and produces data visualizations.
 7. test_main.py --> Tests the functionality of main.py by verifying the accuracy of the descriptive summary statistics and the correctness of the generated visualizations
 
-## Functions inside the main.py
-readData(df): Reads a CSV file into a DataFrame.
-cleanData(df, Columns, Duplicate): Cleans the data by removing duplicates and selecting specified columns.
-summaryStatistics(df): Generates descriptive summary statistics, including median, for numeric columns in the DataFrame.
-stackPlot(df, xVal, StackVal): Creates a stacked bar plot based on two categorical variables.
-barPlot(df, xVal, yVal, Segregate): Produces a horizontal bar plot showing the average of one variable grouped by two others.
