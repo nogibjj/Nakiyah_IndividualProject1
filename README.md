@@ -10,7 +10,26 @@
 
 # Week 3
 
-In the first assignment, we developed a Python template incorporating best practices for organizing a Python project. For this second assignment, we will build on that template to write a Python script that reads a CSV file, utilizes Pandas to generate descriptive statistics, and produces both statistical outputs and visualizations.
+The repository skeleton:
+
+├── .devcontainer/
+│   ├── devcontainer.json
+│   ├── Dockerfile
+├── .github/workflows/
+│   ├── cicd.yml
+├── mylib/
+│   ├── lib.py
+├── .gitignore
+├── FT Global Business School MBA Ranking 2024.csv
+├── Makefile
+├── README.md
+├── Requirements.txt
+├── main_file.ipynb
+├── main_file.py
+├── test_file.py
+└── test_lib.py
+
+In this 
 
 ## Repository contents:
 1. .devcontainer directory (a) devcontainer.json (b) Dockerfile
