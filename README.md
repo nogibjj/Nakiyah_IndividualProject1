@@ -10,8 +10,37 @@
 
 # Week 3
 
-The repository skeleton:
+## Technologies Used
+- **Python 3.x**
+- **Jupyter Notebook**
+- **Pandas**
+- **Matplotlib**
+- **Seaborn**
 
+## Installation
+To run this project, ensure you have Python 3.x and the necessary libraries installed. 
+
+You can install the required libraries using the following command:
+```
+pip install -r requirements.txt
+```
+
+## Usage
+1. Clone this repository:
+    ```bash
+    git clone https://github.com/nogibjj/Nakiyah_MiniProject1.git
+    ```
+2. Navigate into the directory:
+    ```bash
+    cd Nakiyah_MiniProject1
+    ```
+3. Open the Jupyter notebook:
+    ```bash
+    jupyter notebook
+    ```
+    
+The repository skeleton:
+'''
 ├── .devcontainer/
 │   ├── devcontainer.json
 │   ├── Dockerfile
@@ -31,6 +60,7 @@ The repository skeleton:
 ├── main_file.py
 ├── test_file.py
 └── test_lib.py
+'''
 
 ## Overview
 This repository analyzes the FT Global Business School MBA Ranking 2024 dataset. The project uses Python for data processing, visualization, and automated testing, with additional support for containerized development and a CI/CD pipeline.
@@ -51,4 +81,11 @@ barPlot(df, xVal, yVal, Segregate): Produces a horizontal bar plot showing the a
 5. Requirements.txt --> contains a list of packages/libraries needed to work on this project that can all be installed with the file.
 6. main.py --> Reads a CSV file, generates descriptive summary statistics, and produces data visualizations.
 7. test_main.py --> Tests the functionality of main.py by verifying the accuracy of the descriptive summary statistics and the correctness of the generated visualizations
+
+
+
+
+
+The code and notebooks can be run locally for analysis. The notebooks provide detailed comments and insights into the data analysis process.
+
 
