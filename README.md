@@ -15,7 +15,6 @@
 - **Jupyter Notebook**
 - **Pandas**
 - **Matplotlib**
-- **Seaborn**
 
 ## Installation
 To run this project, ensure you have Python 3.x and the necessary libraries installed. 
@@ -38,9 +37,9 @@ pip install -r requirements.txt
     ```bash
     jupyter notebook
     ```
-    
+
 The repository skeleton:
-'''
+```
 ├── .devcontainer/
 │   ├── devcontainer.json
 │   ├── Dockerfile
@@ -60,17 +59,17 @@ The repository skeleton:
 ├── main_file.py
 ├── test_file.py
 └── test_lib.py
-'''
+```
 
 ## Overview
 This repository analyzes the FT Global Business School MBA Ranking 2024 dataset. The project uses Python for data processing, visualization, and automated testing, with additional support for containerized development and a CI/CD pipeline.
 
 ## Functions inside the main.py
-readData(df): Reads a CSV file into a DataFrame.
-cleanData(df, Columns, Duplicate): Cleans the data by removing duplicates and selecting specified columns.
-summaryStatistics(df): Generates descriptive summary statistics, including median, for numeric columns in the DataFrame.
-stackPlot(df, xVal, StackVal): Creates a stacked bar plot based on two categorical variables.
-barPlot(df, xVal, yVal, Segregate): Produces a horizontal bar plot showing the average of one variable grouped by two others.
+- readData(df): Reads a CSV file into a DataFrame.
+- cleanData(df, Columns, Duplicate): Cleans the data by removing duplicates and selecting specified columns.
+- summaryStatistics(df): Generates descriptive summary statistics, including median, for numeric columns in the DataFrame.
+- stackPlot(df, xVal, StackVal): Creates a stacked bar plot based on two categorical variables.
+- barPlot(df, xVal, yVal, Segregate): Produces a horizontal bar plot showing the average of one variable grouped by two others.
 
 
 ## Repository contents:
