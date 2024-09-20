@@ -37,3 +37,5 @@ CleanData = cleanData(Dataset, Rank, ColumnsForDataset, requiredrank)
 piePlotStudents = PiePlot(CleanData, PctIntlStudents, SchoolName)
 piePlotFaculty = PiePlot(CleanData, PctIntlFaculty, SchoolName)
 BarChart = tripleBarPlot(CleanData, SchoolName, RankNames)
+
+print(SummaryStatistics)
