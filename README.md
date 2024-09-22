@@ -55,10 +55,10 @@ This repository analyzes the FT Global Business School MBA Ranking 2024 dataset.
 
 ## Data Visualisation 
 
-### Breakdown of Internation Students
+### Breakdown of International Students
 ![piePlotStudents](piePlotStudents.png)
 
-### Breakdown of Internation Faculty
+### Breakdown of International Faculty
 ![piePlotFaculty](piePlotFaculty.png)
 
 ![barChartUniversityRankings](barPlotUniversityRank.png)
