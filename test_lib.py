@@ -1,6 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 from io import StringIO
+import os
 from main_file import (
     cleanData,
     summaryStatistics,
@@ -86,8 +87,17 @@ def test_PiePlot():
 
     df = pd.read_csv(StringIO(csv_data))
     try:
-        PiePlot(df, "International students (%)", "School Name", "piePlotStudents.png")
+        PiePlot(
+            df, "International students (%)", "School Name", "Test_piePlotStudents.png"
+        )
+        PiePlot(
+            df, "International students (%)", "School Name", "Test_piePlotFaculty.png"
+        )
         plot_success = True
+        # Clean up generated PDF
+        os.remove("Test_piePlotStudents.png")
+        os.remove("Test_piePlotFaculty.png")
+        print("All tests passed successfully!")
     except Exception as e:
         plot_success = False
         print(f"Pie plot failed: {e}")
@@ -114,11 +124,13 @@ def test_tripleBarPlot():
             df,
             "School Name",
             ["Value for money rank", "Career progress rank", "Careers service rank"],
-            "barPlotUniversityRank.png",
+            "Test_barPlotUniversityRank.png",
         )
 
         # If no exceptions were raised, set plot_success to True
         plot_success = True
+        # Clean up generated PDF
+        os.remove("Test_barPlotUniversityRank.png")
 
         # Ensure the plot was successfully generated
         assert plot_success, "Triple bar plot generation failed"
