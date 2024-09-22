@@ -1,14 +1,7 @@
+# Week 3
 # Nakiyah_MiniProject1
 
-[![Install](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/install.yml)
-
-[![Format](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/format.yml)
-
-[![Lint](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/lint.yml)
-
-[![Test](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/test.yml)
-
-# Week 3
+[![Install](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/install.yml)  [![Format](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/format.yml)  [![Lint](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/lint.yml)  [![Test](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/test.yml)
 
 
 ## File Structure 
@@ -26,15 +19,15 @@ Nakiyah_Assignment3/
 │   ├── lib.py
 ├── .gitignore
 ├── Makefile
-├── main.py                                         
-├── main.ipynb                                      
+├── main_file.py                                         
+├── main_file.ipynb                                      
 ├── test_file.py                                    
 ├── test_lib.py                                     
 ├── requirements.txt                                
 ├── FT Global Business School MBA Ranking 2024.csv                  
-├── piePlotFaculty.png                              
-├── piePlotStudents.png
-├── barPlotUniversityRank.png
+├── International Students (%).png                              
+├── International Faculty (%).png
+├── University Rank Comparison.png
 ├── SummaryStats.png                             
 ```
 
