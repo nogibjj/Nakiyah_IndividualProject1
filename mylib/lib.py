@@ -35,7 +35,7 @@ def PiePlot(df, col, labels_col):
     plt.pie(values, labels=labels, autopct="%1.1f%%", startangle=140)
     plt.title(f"Breakdown of {col} by School", pad=40)
     plt.axis("equal")
-    plt.show()
+    plt.savefig("%s.png" %col, bbox_inches='tight')
     return "Pie Chart displayed"
 
 
@@ -44,6 +44,7 @@ def tripleBarPlot(df, Col, RankCols):
     universities = df[Col]  # No of Universities
     barWidth = 1 / (num_ranks + 1)
     r = np.arange(len(universities))
+    plt.figure(figsize=(16,16))
 
     for i, rank_col in enumerate(RankCols):
         plt.bar(
@@ -54,13 +55,13 @@ def tripleBarPlot(df, Col, RankCols):
             label=rank_col,
         )
 
+
     plt.xlabel("Universities", fontweight="bold")
     plt.ylabel("Rank")
     plt.title("University Rank Comparison")
     plt.xticks(
         r + (num_ranks / 2 - 0.5) * barWidth, universities, rotation=45, ha="right"
     )
-    plt.legend(loc="upper left", bbox_to_anchor=(1, 1))
-    plt.tight_layout()
-    plt.show()
+    plt.legend(loc="upper right", bbox_to_anchor=(1, 1))
+    plt.savefig("University Rank Comparison.png", bbox_inches='tight')
     return "Chart"

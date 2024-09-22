@@ -116,13 +116,3 @@ def test_tripleBarPlot():
         print(f"Bar plot failed: {e}")
 
     assert plot_success, "Triple bar plot generation failed"
-
-
-# Run all tests
-if __name__ == "__main__":
-    test_summaryStatistics()
-    test_cleanData()
-    test_PiePlot()
-    test_tripleBarPlot()
-
-    print("All tests passed successfully!")
