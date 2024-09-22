@@ -1,12 +1,12 @@
 # Week 3
-# Nakiyah_MiniProject1
+# Nakiyah_IndividualProject1
 
 [![Install](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/install.yml)  [![Format](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/format.yml)  [![Lint](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/lint.yml)  [![Test](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/Nakiyah_MiniProject1/actions/workflows/test.yml)
 
 
 ## File Structure 
 ```
-Nakiyah_Assignment3/
+Nakiyah_IndividualProject1/
 ├── .devcontainer/
 │   ├── devcontainer.json
 │   └── Dockerfile
@@ -25,9 +25,9 @@ Nakiyah_Assignment3/
 ├── test_lib.py                                     
 ├── requirements.txt                                
 ├── FT Global Business School MBA Ranking 2024.csv                  
-├── International Students (%).png                              
-├── International Faculty (%).png
-├── University Rank Comparison.png
+├── piePlotStudents.png                              
+├── piePlotFaculty.png
+├── barPlotUniversityRank.png
 ├── SummaryStats.png                             
 ```
 
