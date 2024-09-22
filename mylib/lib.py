@@ -27,7 +27,7 @@ def cleanData(df, ColToSort, Columns, RanksRequired):
     return df1
 
 
-def PiePlot(df, col, labels_col):
+def PiePlot(df, col, labels_col, name):
     data = df[[col, labels_col]].dropna().sort_values(by=col, ascending=False)
     values = data[col]
     labels = data[labels_col]
@@ -35,11 +35,11 @@ def PiePlot(df, col, labels_col):
     plt.pie(values, labels=labels, autopct="%1.1f%%", startangle=140)
     plt.title(f"Breakdown of {col} by School", pad=40)
     plt.axis("equal")
-    plt.savefig("%s.png" %col, bbox_inches='tight')
+    plt.savefig(name, bbox_inches='tight')
     return "Pie Chart displayed"
 
 
-def tripleBarPlot(df, Col, RankCols):
+def tripleBarPlot(df, Col, RankCols, name):
     num_ranks = len(RankCols)
     universities = df[Col]  # No of Universities
     barWidth = 1 / (num_ranks + 1)
@@ -63,5 +63,5 @@ def tripleBarPlot(df, Col, RankCols):
         r + (num_ranks / 2 - 0.5) * barWidth, universities, rotation=45, ha="right"
     )
     plt.legend(loc="upper right", bbox_to_anchor=(1, 1))
-    plt.savefig("University Rank Comparison.png", bbox_inches='tight')
+    plt.savefig(name, bbox_inches='tight')
     return "Bar Chart Displayed"

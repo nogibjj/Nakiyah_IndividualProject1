@@ -34,8 +34,8 @@ university_column = "School Name"
 Dataset = readData(Data)
 SummaryStatistics = summaryStatistics(Dataset, ColumnsWantedForSummaryStats)
 CleanData = cleanData(Dataset, Rank, ColumnsForDataset, requiredrank)
-piePlotStudents = PiePlot(CleanData, PctIntlStudents, SchoolName)
-piePlotFaculty = PiePlot(CleanData, PctIntlFaculty, SchoolName)
-BarChart = tripleBarPlot(CleanData, SchoolName, RankNames)
+piePlotStudents = PiePlot(CleanData, PctIntlStudents, SchoolName, "piePlotStudents.png")
+piePlotFaculty = PiePlot(CleanData, PctIntlFaculty, SchoolName, "piePlotFaculty.png")
+BarChart = tripleBarPlot(CleanData, SchoolName, RankNames, "barPlotUniversityRank.png")
 
 print(SummaryStatistics)

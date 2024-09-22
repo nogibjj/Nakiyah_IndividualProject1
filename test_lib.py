@@ -86,7 +86,7 @@ def test_PiePlot():
 
     df = pd.read_csv(StringIO(csv_data))
     try:
-        PiePlot(df, "International students (%)", "School Name")
+        PiePlot(df, "International students (%)", "School Name", "piePlotStudents.png")
         plot_success = True
     except Exception as e:
         plot_success = False
@@ -114,6 +114,7 @@ def test_tripleBarPlot():
             df,
             "School Name",
             ["Value for money rank", "Career progress rank", "Careers service rank"],
+            "barPlotUniversityRank.png",
         )
 
         # If no exceptions were raised, set plot_success to True
